@@ -65,3 +65,41 @@
     height: 20rem;
     margin-left: 2rem;
 }
+
+.anuncio {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    color: #fff;
+    height: 15vh;
+}
+
+.anuncio_texto{
+    margin-left: 6rem;
+    line-height: 2rem;
+}
+
+.anuncio_botao {
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.anuncio_botao a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 0.3rem;
+    font-weight: 600;
+}
+
+.primeiro_anuncio {
+    background-color: #233032;
+}
+
+.primeiro_anuncio .anuncio_botao {
+    border: 1px solid #2F86D6;
+    background-color: #2F86D6;
+    border-radius: 2px;
+}
