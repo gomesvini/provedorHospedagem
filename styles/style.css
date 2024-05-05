@@ -26,7 +26,7 @@
     font-weight: 600;
 }
 
-.topo2{
+.topo2 {
     width: 25rem;
 }
 
@@ -35,4 +35,33 @@
     color: #233032;
     font-weight: bold;
     text-decoration: none;
+}
+
+.banner {
+    box-sizing: border-box;
+    display: flex;
+    background-color: #2F86D6;
+    height: 50vh;
+    padding: 14rem;
+    align-items: center;
+}
+
+.banner_texto {
+    font-size: 19px;
+    text-align: left;
+    color: #fff;
+}
+
+.banner_texto h2 {
+    line-height: 2.5rem;
+}
+
+.banner_texto p {
+    margin: 1rem 0;
+    line-height: 1.6rem;
+}
+
+.banner_imagem img {
+    height: 20rem;
+    margin-left: 2rem;
 }
