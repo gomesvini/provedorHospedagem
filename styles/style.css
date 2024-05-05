@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.topo {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topo1 {
+    display: flex;
+}
+
+.topo1_imagem img {
+    height: 5rem;
+    margin: 0 1rem;
+}
+
+.topo1_titulo p {
+    color: #2F86D6;
+    font-weight: 600;
+}
+
+.topo2{
+    width: 25rem;
+}
+
+.topo2 a {
+    padding: 0 0.4rem;
+    color: #233032;
+    font-weight: bold;
+    text-decoration: none;
+}
