@@ -4,3 +4,43 @@
     box-sizing: border-box;
     font-family: 'Poppins', 'sans-serif';
 }
+
+.topo {
+    height: 17vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2F86D6;
+}
+
+.logo {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.logo_imagem img {
+    height: 4rem;
+    margin: 0 1rem;
+}
+
+.logo_titulo h1{
+    font-size: 28px;
+}
+
+.logo_titulo p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.topo2 {
+    width: 25rem;
+}
+
+.topo2 a {
+    padding: 0 0.4rem;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 13px;
+}
