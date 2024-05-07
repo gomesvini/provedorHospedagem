@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', 'sans-serif';
+    scroll-behavior: smooth;
 }
 
 .topo {
@@ -12,21 +13,21 @@
     align-items: center;
 }
 
-.topo1 {
+.logo {
     display: flex;
     margin-left: 4rem;
 }
 
-.topo1_imagem img {
+.logo_imagem img {
     height: 4rem;
     margin: 0 1rem;
 }
 
-.topo1_titulo h1{
+.logo_titulo h1{
     font-size: 28px;
 }
 
-.topo1_titulo p {
+.logo_titulo p {
     color: #2F86D6;
     font-weight: 600;
     font-size: 13px;
@@ -218,4 +219,38 @@ td {
 
 .segundo_anuncio {
     background-color: #2F86D6;
+}
+
+.rodape {
+    text-align: center;
+    width: 95%;
+}
+
+.logo_rodape {
+    justify-content: center;
+    text-align: justify;
+    margin: 3rem 0 1rem 0;
+}
+
+.contatos {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contatos img {
+    height: 10px;
+    margin-right: 0.2rem;
+}
+
+.rodape_final {
+    background-color: #E0E0E4;
+    width: 105%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
 }
