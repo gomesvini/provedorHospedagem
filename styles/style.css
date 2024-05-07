@@ -14,16 +14,22 @@
 
 .topo1 {
     display: flex;
+    margin-left: 4rem;
 }
 
 .topo1_imagem img {
-    height: 5rem;
+    height: 4rem;
     margin: 0 1rem;
+}
+
+.topo1_titulo h1{
+    font-size: 28px;
 }
 
 .topo1_titulo p {
     color: #2F86D6;
     font-weight: 600;
+    font-size: 13px;
 }
 
 .topo2 {
@@ -80,28 +86,42 @@
     line-height: 2rem;
 }
 
+.anuncio_texto2 {
+    margin-left: 9rem;
+    width: 35%;
+    font-size: 12px;
+}
+
 .anuncio_botao {
     margin-right: 5rem;
     display: flex;
     align-items: center;
     padding: 0.5rem;
+    border: 1px solid #2F86D6;
+    background-color: #2F86D6;
+    border-radius: 2px;
 }
 
-.anuncio_botao a {
+.anuncio_botao2 {
+    margin-right: 9.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #233032;
+    border-radius: 2px;
+}
+
+.anuncio_botao a, .anuncio_botao2 a {
     text-decoration: none;
     color: #fff;
     margin-left: 0.3rem;
     font-weight: 600;
+    font-size: 11px;
+    padding: 0.3rem;
 }
 
 .primeiro_anuncio {
     background-color: #233032;
-}
-
-.primeiro_anuncio .anuncio_botao {
-    border: 1px solid #2F86D6;
-    background-color: #2F86D6;
-    border-radius: 2px;
 }
 
 .informacoes { 
@@ -194,4 +214,8 @@ td {
 
 .colorido {
     background-color: #e0e0e4;
+}
+
+.segundo_anuncio {
+    background-color: #2F86D6;
 }
