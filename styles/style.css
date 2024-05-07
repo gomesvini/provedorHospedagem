@@ -142,3 +142,56 @@ span {
 .exemplos p {
     font-size: 11px;
 }
+
+.planos {
+    margin-top: 3rem;
+    height: 100vh;
+    background-color: #f1f3f7
+}
+
+.planos .planos_titulo {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.table{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #2F86D6;
+    border-radius: 4px;
+    height: 65vh;
+    width: 60vw;
+    box-shadow: 0 0 20px 10px #2F86D6;
+    background-color: #fff;
+}
+
+.table img {
+    height: 5rem;
+}
+
+thead p {
+    font-size: 11px;
+    width: 8rem;
+    color:#9d9da3;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+th h4, th p {
+    margin: 1rem auto;
+}
+
+table, th,td{
+    border: 1px solid #e0e0e4;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+td {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.colorido {
+    background-color: #e0e0e4;
+}
