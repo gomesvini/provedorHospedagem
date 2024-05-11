@@ -23,7 +23,7 @@
     margin: 0 1rem;
 }
 
-.logo_titulo h1{
+.logo_titulo h1 {
     font-size: 28px;
 }
 
@@ -83,7 +83,7 @@
     height: 15vh;
 }
 
-.anuncio_texto{
+.anuncio_texto {
     margin-left: 6rem;
     line-height: 2rem;
 }
@@ -113,7 +113,8 @@
     border-radius: 2px;
 }
 
-.anuncio_botao a, .anuncio_botao2 a {
+.anuncio_botao a,
+.anuncio_botao2 a {
     text-decoration: none;
     color: #fff;
     margin-left: 0.3rem;
@@ -126,7 +127,7 @@
     background-color: #233032;
 }
 
-.informacoes { 
+.informacoes {
     margin: 4rem auto;
 }
 
@@ -137,7 +138,7 @@
 }
 
 span {
-    color:#2F86D6
+    color: #2F86D6
 }
 
 .informacoes img {
@@ -145,7 +146,7 @@ span {
     margin-bottom: 1rem;
 }
 
-.informacoes_exemplos{
+.informacoes_exemplos {
     display: flex;
     justify-content: center;
 }
@@ -176,7 +177,7 @@ span {
     padding: 4rem 0;
 }
 
-.table{
+.table {
     margin: 0 auto;
     text-align: center;
     border: 1px solid #2F86D6;
@@ -194,16 +195,19 @@ span {
 thead p {
     font-size: 11px;
     width: 8rem;
-    color:#9d9da3;
+    color: #9d9da3;
     font-weight: bold;
     margin: 0 auto;
 }
 
-th h4, th p {
+th h4,
+th p {
     margin: 1rem auto;
 }
 
-table, th,td{
+table,
+th,
+td {
     border: 1px solid #e0e0e4;
     border-collapse: collapse;
     padding: 5px;
@@ -224,7 +228,6 @@ td {
 
 .rodape {
     text-align: center;
-    width: 95%;
 }
 
 .logo_rodape {
@@ -247,11 +250,14 @@ td {
 
 .rodape_final {
     background-color: #E0E0E4;
-    width: 105%;
     height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 600;
     font-size: 14px;
+}
+
+.rodape_final p {
+    margin-right: 0rem;
 }

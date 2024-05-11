@@ -18,7 +18,7 @@
     margin-left: 4rem;
 }
 
-.logo_imagem img {
+.logo_imagem img, .rodape img {
     height: 4rem;
     margin: 0 1rem;
 }
@@ -29,7 +29,7 @@
 
 .logo_titulo p {
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 13px;
 }
 
@@ -44,3 +44,105 @@
     text-decoration: none;
     font-size: 13px;
 }
+
+.tabela {
+    margin: 6rem auto;
+    text-align: center;
+    border-radius: 4px;
+    height: 85vh;
+    width: 70vw;
+    background-color: #fff;
+}
+
+.title_body{
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-align: justify;
+    background-color: #d7d9db;
+    padding: 1rem 1rem;
+    border: 1px solid #fff
+}
+
+.tabela h4 {
+    font-size: 1.5rem;
+}
+
+.box {
+    background-color:#fff ;
+}
+
+th {
+    padding: 0.6rem 3rem;
+    background-color: #d7d9db;
+    border: 1px solid #fff;
+}
+
+th p {
+    color:#9d9da3;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+td {
+    font-size: 0.7rem;
+    font-weight: 500;
+    border: 1px solid #dadae0;
+}
+
+table, th, td {
+    border-collapse: collapse ;
+}
+
+.circle::before {
+    content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #4b87c0;
+  border-radius: 50%; 
+  position: absolute; 
+  transform: translate(-50%, -50%); 
+}
+
+.rodape {
+    margin-top: 50vh;
+    background-color: #2F86D6;
+    height: 25vh;
+    display: grid;
+    justify-content: center;
+}
+
+.logo_inferior {
+    display: flex;
+    margin: 2rem auto 0 auto;
+    
+}
+
+.rodape p{
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+
+.solution {
+    margin-top: -1.6rem;
+}
+
+.rodape_final {
+    background-color: #E0E0E4;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+span {
+    color: #2F86D6;
+}
+
+
+
+
