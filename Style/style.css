@@ -11,11 +11,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .logo {
     display: flex;
     margin-left: 4rem;
+    max-width: 310px;
 }
 
 .logo_imagem img {
@@ -35,6 +38,12 @@
 
 .topo2 {
     width: 25rem;
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-left: 4rem;
 }
 
 .topo2 a {
@@ -49,15 +58,34 @@
     box-sizing: border-box;
     display: flex;
     background-color: #2F86D6;
-    height: 50vh;
-    padding: 14rem;
+    height: 60vh;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    max-width: 1024px;
+    flex-wrap: wrap;
 }
 
 .banner_texto {
     font-size: 19px;
     text-align: left;
     color: #fff;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* flex: 1 1 300px; */
+}
+
+.banner_imagem {
+    max-width: 60%;
+    /* flex: 1 1 463px; */
 }
 
 .banner_texto h2 {
@@ -76,7 +104,7 @@
 
 .anuncio {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1rem;
     align-items: center;
     color: #fff;
@@ -233,7 +261,7 @@ td {
 .logo_rodape {
     justify-content: center;
     text-align: justify;
-    margin: 3rem 0 1rem 0;
+    margin: 1rem auto;
 }
 
 .contatos {
